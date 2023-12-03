@@ -7,3 +7,13 @@ body {
     font-size: 40px;
     text-align: center;
 }
+
+.question {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
