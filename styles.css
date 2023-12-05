@@ -13,6 +13,13 @@ body {
     justify-content: space-evenly;
 }
 
+.img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 img {
     width: 500px;
     height: 150px;
@@ -24,4 +31,7 @@ img {
     width: 150px;
     height: 50px;
     padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(16, 26, 167);    
 }
