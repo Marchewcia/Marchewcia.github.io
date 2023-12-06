@@ -35,3 +35,10 @@ img {
     font-weight: bolder;
     color: rgb(16, 26, 167);    
 }
+
+.results {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

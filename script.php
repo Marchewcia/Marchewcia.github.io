@@ -11,104 +11,100 @@ $odp9=$_POST["q9"];
 $odp10=$_POST["q10"];
 $odp11=$_POST["q11"];
 $odp12=$_POST["q12"];
-$odp13=$_POST["q13"];
-$odp14=$_POST["q14"];
-$odp15=$_POST["q15"];
-$odp16=$_POST["q16"];
 
 $suma=0;
 
-if($odp1="c"){
+if($odp1==1){
     $suma++;
     echo "<p>Pytanie 1-poprawna odpowiedź(c)</p>";
 }
 else{
-    echo "<p>Pytanie 1-niepoprawna odpowiedź</p>";
+    echo "<p>Pytanie 1-niepoprawna odpowiedź, poprawną odpowiedzią była odpowiedź c</p>";
 }
 
-if($odp2="a"){
+if($odp2==1){
     $suma++;
-    echo "<p>Pytanie 2-poprawna odpowiedź(c)</p>";
+    echo "<p>Pytanie 2-poprawna odpowiedź(a)</p>";
 }
 else{
-    echo "<p>Pytanie 2-niepoprawna odpowiedź</p>";
+    echo "<p>Pytanie 2-niepoprawna odpowiedź, poprawną odpowiedzyła była odpowiedź a</p>";
 }
 
-if($odp3="c"){
+if($odp3==1){
     $suma++;
     echo "<p>Pytanie 3-poprawna odpowiedź(c)</p>";
 }
 else{
-    echo "<p>Pytanie 3-niepoprawna odpowiedź</p>";
+    echo "<p>Pytanie 3-niepoprawna odpowiedź, poprawną odpowiedzią była odpowiedź c</p>";
 }
 
-if($odp4="d"){
+if($odp4==1){
     $suma++;
-    echo "<p>Pytanie 4-poprawna odpowiedź(c)</p>";
+    echo "<p>Pytanie 4-poprawna odpowiedź(d)</p>";
 }
 else{
-    echo "<p>Pytanie 4-niepoprawna odpowiedź</p>";
+    echo "<p>Pytanie 4-niepoprawna odpowiedź, poprawną odpowiedzią była odpowiedź d</p>";
 }
 
-if($odp5="c"){
+if($odp5==1){
     $suma++;
     echo "<p>Pytanie 5-poprawna odpowiedź(c)</p>";
 }
 else{
-    echo "<p>Pytanie 5-niepoprawna odpowiedź</p>";
+    echo "<p>Pytanie 5-niepoprawna odpowiedź, poprawną odpowiedzią była odpowiedź c</p>";
 }
 
-if($odp6="b"){
+if($odp6==1){
     $suma++;
-    echo "<p>Pytanie 6-poprawna odpowiedź(c)</p>";
+    echo "<p>Pytanie 6-poprawna odpowiedź</p>";
 }
 else{
     echo "<p>Pytanie 6-niepoprawna odpowiedź</p>";
 }
 
-if($odp7="b"){
+if($odp7==1){
     $suma++;
-    echo "<p>Pytanie 7-poprawna odpowiedź(c)</p>";
+    echo "<p>Pytanie 7-poprawna odpowiedź</p>";
 }
 else{
     echo "<p>Pytanie 7-niepoprawna odpowiedź</p>";
 }
 
-if($odp8="a"){
+if($odp8==1){
     $suma++;
-    echo "<p>Pytanie 8-poprawna odpowiedź(c)</p>";
+    echo "<p>Pytanie 8-poprawna odpowiedź</p>";
 }
 else{
     echo "<p>Pytanie 8-niepoprawna odpowiedź</p>";
 }
 
-if($odp9="d"){
+if($odp9==1){
     $suma++;
-    echo "<p>Pytanie 9-poprawna odpowiedź(c)</p>";
+    echo "<p>Pytanie 9-poprawna odpowiedź</p>";
 }
 else{
     echo "<p>Pytanie 9-niepoprawna odpowiedź</p>";
 }
 
-if($odp10=""){
+if($odp10==1){
     $suma++;
-    echo "<p>Pytanie 10-poprawna odpowiedź(c)</p>";
+    echo "<p>Pytanie 10-poprawna odpowiedź</p>";
 }
 else{
     echo "<p>Pytanie 10-niepoprawna odpowiedź</p>";
 }
 
-if($odp11=""){
+if($odp11==1){
     $suma++;
-    echo "<p>Pytanie 11-poprawna odpowiedź(c)</p>";
+    echo "<p>Pytanie 11-poprawna odpowiedź</p>";
 }
 else{
     echo "<p>Pytanie 11-niepoprawna odpowiedź</p>";
 }
 
-if($odp12=""){
+if($odp12==1){
     $suma++;
-    echo "<p>Pytanie 12-poprawna odpowiedź(c)</p>";
+    echo "<p>Pytanie 12-poprawna odpowiedź</p>";
 }
 else{
     echo "<p>Pytanie 12-niepoprawna odpowiedź</p>";
