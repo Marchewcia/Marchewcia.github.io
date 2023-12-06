@@ -16,6 +16,57 @@ $suma=0;
 
 if($odp1==1){
     $suma++;
+}
+
+if($odp2==1){
+    $suma++;
+}
+
+if($odp3==1){
+    $suma++;
+}
+
+if($odp4==1){
+    $suma++;
+}
+
+if($odp5==1){
+    $suma++;
+}
+
+if($odp6==1){
+    $suma++;
+}
+
+if($odp7==1){
+    $suma++;
+}
+
+if($odp8==1){
+    $suma++;
+}
+
+if($odp9==1){
+    $suma++;
+}
+
+if($odp10==1){
+    $suma++;
+}
+
+if($odp11==1){
+    $suma++;
+}
+
+if($odp12==1){
+    $suma++;
+}
+
+echo"<h1>Udało Ci się zdobyć ".$suma." punktów! Gratuluję!</h1>";
+echo '<video width="500px" height="250px" autoplay><source src="assets/confetti.mp4" play></video>';
+
+
+if($odp1==1){
     echo "<p>Pytanie 1-poprawna odpowiedź(c)</p>";
 }
 else{
@@ -23,7 +74,6 @@ else{
 }
 
 if($odp2==1){
-    $suma++;
     echo "<p>Pytanie 2-poprawna odpowiedź(a)</p>";
 }
 else{
@@ -31,7 +81,6 @@ else{
 }
 
 if($odp3==1){
-    $suma++;
     echo "<p>Pytanie 3-poprawna odpowiedź(c)</p>";
 }
 else{
@@ -39,7 +88,6 @@ else{
 }
 
 if($odp4==1){
-    $suma++;
     echo "<p>Pytanie 4-poprawna odpowiedź(d)</p>";
 }
 else{
@@ -47,7 +95,6 @@ else{
 }
 
 if($odp5==1){
-    $suma++;
     echo "<p>Pytanie 5-poprawna odpowiedź(c)</p>";
 }
 else{
@@ -55,59 +102,51 @@ else{
 }
 
 if($odp6==1){
-    $suma++;
-    echo "<p>Pytanie 6-poprawna odpowiedź</p>";
+    echo "<p>Pytanie 6-poprawna odpowiedź(b)</p>";
 }
 else{
-    echo "<p>Pytanie 6-niepoprawna odpowiedź</p>";
+    echo "<p>Pytanie 6-niepoprawna odpowiedź, poprawną odpowiedzią była odpowiedź b</p>";
 }
 
 if($odp7==1){
-    $suma++;
-    echo "<p>Pytanie 7-poprawna odpowiedź</p>";
+    echo "<p>Pytanie 7-poprawna odpowiedź(b)</p>";
 }
 else{
-    echo "<p>Pytanie 7-niepoprawna odpowiedź</p>";
+    echo "<p>Pytanie 7-niepoprawna odpowiedź, poprawną odpowiedzią była odpowiedź b</p>";
 }
 
 if($odp8==1){
-    $suma++;
-    echo "<p>Pytanie 8-poprawna odpowiedź</p>";
+    echo "<p>Pytanie 8-poprawna odpowiedź(a)</p>";
 }
 else{
-    echo "<p>Pytanie 8-niepoprawna odpowiedź</p>";
+    echo "<p>Pytanie 8-niepoprawna odpowiedź, poprawną odpowiedzią była odpowiedź a</p>";
 }
 
 if($odp9==1){
-    $suma++;
-    echo "<p>Pytanie 9-poprawna odpowiedź</p>";
+    echo "<p>Pytanie 9-poprawna odpowiedź(d)</p>";
 }
 else{
-    echo "<p>Pytanie 9-niepoprawna odpowiedź</p>";
+    echo "<p>Pytanie 9-niepoprawna odpowiedź, poprawną odpowiedzią była odpowiedź d</p>";
 }
 
 if($odp10==1){
-    $suma++;
-    echo "<p>Pytanie 10-poprawna odpowiedź</p>";
+    echo "<p>Pytanie 10-poprawna odpowiedź(c)</p>";
 }
 else{
-    echo "<p>Pytanie 10-niepoprawna odpowiedź</p>";
+    echo "<p>Pytanie 10-niepoprawna odpowiedź, poprawną odpowiedzią była odpowiedź c</p>";
 }
 
 if($odp11==1){
-    $suma++;
-    echo "<p>Pytanie 11-poprawna odpowiedź</p>";
+    echo "<p>Pytanie 11-poprawna odpowiedź(a)</p>";
 }
 else{
-    echo "<p>Pytanie 11-niepoprawna odpowiedź</p>";
+    echo "<p>Pytanie 11-niepoprawna odpowiedź, poprawną odpowiedzią była odpowiedź a</p>";
 }
 
 if($odp12==1){
-    $suma++;
-    echo "<p>Pytanie 12-poprawna odpowiedź</p>";
+    echo "<p>Pytanie 12-poprawna odpowiedź(c)</p>";
 }
 else{
-    echo "<p>Pytanie 12-niepoprawna odpowiedź</p>";
+    echo "<p>Pytanie 12-niepoprawna odpowiedź, poprawną odpowiedzią była odpowiedź c</p>";
 }
-
 ?>

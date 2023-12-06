@@ -12,7 +12,6 @@
             <p>
                 <?php include "script.php" ?>
             </p>
-            <h1>Kliknij przycisk aby pokazać finalny wynik!</h1>
         </div>
     </body>
 </html>
