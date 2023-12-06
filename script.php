@@ -64,6 +64,7 @@ if($odp12==1){
 
 echo"<h1>Udało Ci się zdobyć ".$suma." punktów! Gratuluję!</h1>";
 echo '<video width="500px" height="250px" autoplay><source src="assets/confetti.mp4" play></video>';
+echo '<p class="img a">Źródło: <a href="https://pixabay.com/videos/confetti-celebration-carnival-fun-121983/">https://pixabay.com/videos/confetti-celebration-carnival-fun-121983/</a></p>';
 
 
 if($odp1==1){

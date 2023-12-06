@@ -61,3 +61,18 @@ img {
 p {
     font-size: 20px;
 }
+
+.abcde {
+    border: solid 2px blue;
+    border-radius: 20px;
+    width: 150px;
+    height: 75px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(16, 26, 167);    
+}
+
+.a {
+    font-size: small;
+}
