@@ -1,16 +1,16 @@
 <?php
-$odp1=$_POST["q1"];
-$odp2=$_POST["q2"];
-$odp3=$_POST["q3"];
-$odp4=$_POST["q4"];
-$odp5=$_POST["q5"];
-$odp6=$_POST["q6"];
-$odp7=$_POST["q7"];
-$odp8=$_POST["q8"];
-$odp9=$_POST["q9"];
-$odp10=$_POST["q10"];
-$odp11=$_POST["q11"];
-$odp12=$_POST["q12"];
+$odp1=$_GET["q1"];
+$odp2=$_GET["q2"];
+$odp3=$_GET["q3"];
+$odp4=$_GET["q4"];
+$odp5=$_GET["q5"];
+$odp6=$_GET["q6"];
+$odp7=$_GET["q7"];
+$odp8=$_GET["q8"];
+$odp9=$_GET["q9"];
+$odp10=$_GET["q10"];
+$odp11=$_GET["q11"];
+$odp12=$_GET["q12"];
 
 $suma=0;
 
